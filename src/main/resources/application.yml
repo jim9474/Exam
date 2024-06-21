@@ -1,0 +1,10 @@
+server:
+ port: 8383
+ 
+ 
+spring:
+ # view Resolver
+ mvc:
+  view:
+   prefix: /WEB-INF/views/
+   suffix: .jsp
